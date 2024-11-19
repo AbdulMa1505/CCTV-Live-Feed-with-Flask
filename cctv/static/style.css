@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+  }
+  
+  .container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #ccc;
+  }
+  
+  body.dark-mode h1 {
+    color: #f8f9fa;
+  }
+  
+  .video-container {
+    display: inline-block;
+    border: 3px solid #007bff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  body.dark-mode .video-container {
+    border-color: #f8f9fa;
+  }
+  
+  .video-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
